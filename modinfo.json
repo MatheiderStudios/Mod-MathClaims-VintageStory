@@ -1,0 +1,12 @@
+{
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "code",
+  "side": "Universal",
+  "requiredOnClient": true,
+  "modid": "mathclaims",
+  "name": "MathClaims",
+  "authors": [ "MathClaims / Ham?Bugg server" ],
+  "description": "Chunk-column territorial protection for Vintage Story.",
+  "version": "1.0.1",
+  "dependencies": { "game": "1.22.7" }
+}

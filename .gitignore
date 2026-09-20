@@ -1,0 +1,24 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+
+# Test output
+TestResults/
+tests/[Bb]in/
+tests/[Oo]bj/
+
+# IDE and user-specific state
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Local runtime data and diagnostics
+UserData/
+MathClaims/logs/
+*.log
+*.bak
+
+# Generated distributable packages are uploaded manually as releases
+*.zip

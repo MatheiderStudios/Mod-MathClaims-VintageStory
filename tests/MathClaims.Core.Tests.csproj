@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Models/ClaimModels.cs" Link="Models/ClaimModels.cs" />
+    <Compile Include="../Persistence/ClaimStateMigration.cs" Link="Persistence/ClaimStateMigration.cs" />
+    <Compile Include="../Server/Claims/ClaimEngine.cs" Link="Server/Claims/ClaimEngine.cs" />
+    <Compile Include="../Server/Protection/UsePermissionClassifier.cs" Link="Server/Protection/UsePermissionClassifier.cs" />
+    <Compile Include="../Server/Protection/VanillaLandCommandGuard.cs" Link="Server/Protection/VanillaLandCommandGuard.cs" />
+    <Compile Include="../Server/Protection/NpcStructureClaimPolicy.cs" Link="Server/Protection/NpcStructureClaimPolicy.cs" />
+    <Compile Include="../Server/Protection/PvpSafetyPolicy.cs" Link="Server/Protection/PvpSafetyPolicy.cs" />
+    <Compile Include="../Client/Map/MapSelection.cs" Link="Client/Map/MapSelection.cs" />
+  </ItemGroup>
+</Project>
